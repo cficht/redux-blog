@@ -36,8 +36,8 @@ Create all the redux state management for a blog.
   * [X] - BONUS: handle update a post by index
 - [X] - postReducer.test
 - [] - commentReducer (STRETCH)
-  * [] - store comments for each post (create an object where the key is a posts index) and the value is an array of comments
-  * [] - handle create a comment
+  * [X] - store comments for each post (create an object where the key is a posts index) and the value is an array of comments
+  * [X] - handle create a comment
   * [] - handle delete a comment
   * [] - delete post should also delete all comments
 
