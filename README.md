@@ -32,7 +32,7 @@ Create all the redux state management for a blog.
 - [] - postReducer
   * [X] - store an array of posts
   * [X] - handle create a post
-  * [] - handle delete a post
+  * [X] - handle delete a post
   * [] - BONUS: handle update a post by index
 - [] - postReducer.test
 - [] - commentReducer (STRETCH)
