@@ -6,7 +6,6 @@ describe('postActions testing', () => {
       title: 'My Cool Blog Post',
       body: 'Here is where I write some cool words.'
     });
-
     expect(action).toEqual({
       type: CREATE_BLOG,
       payload: {
@@ -15,5 +14,5 @@ describe('postActions testing', () => {
       }
     });
   });
-  
+
 });

@@ -30,7 +30,7 @@ Create all the redux state management for a blog.
 
 ## reducers
 - [] - postReducer
-  * [] - store an array of posts
+  * [X] - store an array of posts
   * [X] - handle create a post
   * [] - handle delete a post
   * [] - BONUS: handle update a post by index
@@ -43,7 +43,7 @@ Create all the redux state management for a blog.
 
 ## selectors
 - [] - postSelectors
-  * [] - get all posts
+  * [X] - get all posts
   * [] - get a post by index
 - [] - postSelectors.test
 - [] - commentSelectors (STRETCH)
@@ -53,9 +53,11 @@ Create all the redux state management for a blog.
 
 ## Steps
 - create postReducer
-
 - postActions title and body
 - postActions create a post
 - postActions.test
 - postReducer.test
 - postSelectors
+
+- delete a post action
+- handle delete a post
