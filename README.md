@@ -19,8 +19,8 @@ Create all the redux state management for a blog.
 
 ## actions
 - [] - postActions
-  * [] - posts have an title and body
-  * [] - you can create a post
+  * [X] - posts have an title and body
+  * [X] - you can create a post
   * [] - you can delete a post
   * [] - BONUS: you can update a post by passing an id and new body
 - [] - postActions.test
@@ -31,7 +31,7 @@ Create all the redux state management for a blog.
 ## reducers
 - [] - postReducer
   * [] - store an array of posts
-  * [] - handle create a post
+  * [X] - handle create a post
   * [] - handle delete a post
   * [] - BONUS: handle update a post by index
 - [] - postReducer.test
