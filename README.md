@@ -18,12 +18,12 @@ Create all the redux state management for a blog.
 # --------------------
 
 ## actions
-- [] - postActions
+- [X] - postActions
   * [X] - posts have an title and body
   * [X] - you can create a post
   * [X] - you can delete a post
-  * [] - BONUS: you can update a post by passing an id and new body
-- [] - postActions.test
+  * [X] - BONUS: you can update a post by passing an id and new body
+- [X] - postActions.test
 - [] - commentActions (STRETCH)
   * [] - create an action to create a comment for a post (by post index)
   * [] - create an action to delete a comment for a post (by post index and comment index)
@@ -42,9 +42,9 @@ Create all the redux state management for a blog.
   * [] - delete post should also delete all comments
 
 ## selectors
-- [] - postSelectors
+- [X] - postSelectors
   * [X] - get all posts
-  * [] - get a post by index
+  * [X] - get a post by index
 - [] - postSelectors.test
 - [] - commentSelectors (STRETCH)
   * [] - get all comments by post

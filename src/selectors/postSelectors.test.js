@@ -1,6 +1,7 @@
 import { getBlogs, getBlogByIndex } from './postSelectors';
 
 describe('postSelectors testing', () => {
+
   it('gets all the blogs', () => {
     const state = [
       {
@@ -34,4 +35,5 @@ describe('postSelectors testing', () => {
       body: 'Some more cool stuff.'
     });
   });
+  
 });

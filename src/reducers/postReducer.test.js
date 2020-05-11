@@ -2,6 +2,7 @@ import { createBlog, deleteBlog } from '../actions/postActions';
 import reducer from './postReducer';
 
 describe('postReducer tests', () => {
+
   it('handles the CREATE_BLOG action', () => {
     const state = [];
     const action = createBlog({
@@ -37,4 +38,5 @@ describe('postReducer tests', () => {
       }
     ]);
   });
+  
 });

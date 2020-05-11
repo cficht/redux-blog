@@ -1,6 +1,7 @@
-import { createBlog, CREATE_BLOG, deleteBlog, DELETE_BLOG } from './postActions';
+import { createBlog, CREATE_BLOG, deleteBlog, DELETE_BLOG, updateBlog, UPDATE_BLOG } from './postActions';
 
 describe('postActions testing', () => {
+
   it('CREATE_BLOG action', () => {
     const action = createBlog({
       title: 'My Cool Blog Post',
@@ -20,6 +21,17 @@ describe('postActions testing', () => {
     expect(action).toEqual({
       type: DELETE_BLOG,
       payload: 30
+    });
+  });
+
+  it('UPDATE_BLOG action', () => {
+    const action = updateBlog(3, 'This blog needs some changing.');
+    expect(action).toEqual({
+      type: UPDATE_BLOG,
+      payload: {
+        index: 3,
+        body: 'This blog needs some changing.'
+      }
     });
   });
 
