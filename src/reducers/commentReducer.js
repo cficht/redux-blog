@@ -1,4 +1,4 @@
-import { CREATE_COMMENT } from '../actions/commentActions';
+import { CREATE_COMMENT, DELETE_COMMENT } from '../actions/commentActions';
 
 const initialState = [];
 
@@ -11,6 +11,13 @@ export default function reducer(state = initialState, action) {
         }
         return comments;
       });
+    case DELETE_COMMENT:
+      return state.map((comments) => {
+        return { 
+          [action.payload.postIndex]: comments[action.payload.postIndex].filter((_, i) => i !== action.payload.commentIndex)
+        };
+      });
+      // return state.filter((_, i) => i !== action.payload.);
     default:
       return state;
   }
