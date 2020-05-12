@@ -65,7 +65,7 @@ Create all the redux state management for a blog.
 - create commentActions
 - create an action to create a comment for a post (by post index)
 - get all comments by post
-
 - create an action to delete a comment for a post (by post index and comment index)
 - handle delete a comment
+
 - delete post should also delete all comments
