@@ -24,9 +24,9 @@ Create all the redux state management for a blog.
   * [X] - you can delete a post
   * [X] - BONUS: you can update a post by passing an id and new body
 - [X] - postActions.test
-- [] - commentActions (STRETCH)
+- [X] - commentActions (STRETCH)
   * [X] - create an action to create a comment for a post (by post index)
-  * [] - create an action to delete a comment for a post (by post index and comment index)
+  * [X] - create an action to delete a comment for a post (by post index and comment index)
 
 ## reducers
 - [X] - postReducer
